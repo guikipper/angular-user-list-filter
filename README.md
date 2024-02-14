@@ -1,27 +1,30 @@
-# UsersFilter
+# Projeto Lista de Usuários Angular 📚
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+Este projeto Angular tem como objetivo principal proporcionar uma experiência prática com conceitos fundamentais do framework, como modularização, componentização, e comunicação entre componentes. Através da exibição de uma lista de usuários simulada, os participantes podem aprender sobre a importação e exportação de módulos, a utilização de componentes de outros módulos, e a implementação de filtros e pipes para a manipulação de dados.
 
-## Development server
+## Características 🌟
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Modularização e Componentização:** Prática com a arquitetura de aplicativos Angular, dividindo o código em módulos e componentes reutilizáveis.
+- **Comunicação entre Componentes:** Utilização de `@Input()` e `@Output()` para passar dados entre componentes pais e filhos.
+- **Filtragem de Dados:** Filtragem de usuários por nome, data de cadastro (range), e status (ativo/inativo) usando pipes personalizados.
+- **Exibição de Detalhes:** Ao clicar em um usuário da lista, os detalhes são exibidos em um componente separado, demonstrando a passagem de dados entre componentes.
+- **Angular Material:** Uso de componentes do Angular Material para a criação de uma interface de usuário elegante e responsiva.
+- **Formulários e ngModel:** Captura e manipulação de dados do usuário através de formulários, utilizando `ngModel` para binding bidirecional.
+- **SCSS e TypeScript:** Estilização avançada com SCSS e programação com TypeScript para uma experiência de desenvolvimento rica e tipada.
 
-## Code scaffolding
+## Tecnologias Utilizadas 💻
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- Angular Material
+- TypeScript
+- SCSS
+- HTML5
 
-## Build
+## Como Executar 🚀
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1. Clone o repositório para sua máquina local.
+2. Navegue até a pasta do projeto através do terminal.
+3. Execute `npm install` para instalar as dependências.
+4. Execute `ng serve` para iniciar o servidor de desenvolvimento.
+5. Abra `http://localhost:4200` no seu navegador para visualizar o aplicativo.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
