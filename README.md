@@ -28,6 +28,8 @@ Este projeto Angular tem como objetivo principal proporcionar uma experiência p
 4. Execute `ng serve` para iniciar o servidor de desenvolvimento.
 5. Abra `http://localhost:4200` no seu navegador para visualizar o aplicativo.
 
+## Print do projeto 📸
+
 ![image](https://github.com/guikipper/user-list-filter/assets/33471042/478580c1-ad9e-40bb-879e-4672530e912f)
 
 
